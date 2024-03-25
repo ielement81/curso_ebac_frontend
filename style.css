@@ -1,0 +1,26 @@
+body {
+    background: -webkit-linear-gradient(left, #47aea1, #24504d);
+    background: -moz-linear-gradient(left, #47aea1, #24504d);
+    background: -ms-linear-gradient(left, #47aea1, #24504d);
+    background: -o-linear-gradient(left, #47aea1, #24504d);
+    background: linear-gradient(to right, #47aea1, #24504d);
+}
+
+form {
+    margin-left: 800px;
+    margin-top: 400px;
+}
+
+form, input {
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    
+}
+
+form, ::placeholder{
+    padding-left: 50px;
+}
+#enviar-btn {
+    margin-left: 60px;
+}
